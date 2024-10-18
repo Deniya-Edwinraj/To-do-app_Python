@@ -7,7 +7,7 @@ from ttkbootstrap.constants import *
 class ToDoApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Stylish To-Do App")
+        self.root.title("To-Do App")
         self.root.geometry("500x500")
         
         self.tasks = []
